@@ -1,10 +1,11 @@
 /*boolean turn;// 0 -> Red's turn, 1 -> Yellow's turn
 int BLOCKSIZE = 100;
-int[] nil = {102, 102, 102};
+int[] ni = {102, 102, 102};
 int[] red = {210, 0, 0};
 int[] yellow = {175, 150, 0};
-int[][] colors = {nil, red, yellow};
-int[][] board = new int[7][8];
+
+//---------------------------------------------------------------------
+//int[][] board = new int[7][8];
 /*
 Guide:
   0 -> Nothing in square
@@ -14,12 +15,6 @@ Guide:
 
 // TODO: Board Logic, etc.
 /*
-void setup() {
-   size(1000, 700);
-   windowTitle("Connect 4");
-    windowMove(300, 300);
-}
-
 void draw() {
     background(102);
     strokeWeight(6);
